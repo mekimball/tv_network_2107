@@ -22,7 +22,6 @@ class Show
   end
 
   def actors
-    # require "pry"; binding.pry
     actors = []
     actors << characters.first.actor
     actors << characters.last.actor
